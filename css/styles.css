@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+#mainer-h1 {
+    background-color: lightgreen;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.index.listo{
+    background-color: black;
+    color: white;
+    font-weight: 300;
+}
+
+.imgr {
+    height: auto;
+    width: 500px;
+}
+
+.h1 {
+    background-color: pink;
+}
+
+.chili {
+    color: chocolate;
+}
+
+p {
+    font-style: italic;
+}
+
+.ingre,
+.stepr {
+    background-color: azure;
+
+}
+
+.listy {
+    color:blueviolet;
+}

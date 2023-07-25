@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, sans-serif;
 }
+
 #mainer-h1 {
     background-color: lightgreen;
     font-weight: 400;
@@ -25,6 +26,14 @@ body {
 
 .chili {
     color: chocolate;
+}
+
+.marg {
+    color:yellow;
+}
+
+.tea {
+    color: green;
 }
 
 p {

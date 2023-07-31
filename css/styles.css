@@ -1,27 +1,58 @@
 body {
     font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: orange; 
 }
 
 #mainer-h1 {
     background-color: lightgreen;
     font-weight: 400;
     color: white;
-    
+    text-align: center;
+    padding: 10px;
+
+    width: 50%;
+    margin: 0 auto;
+
+    margin-bottom: 8px;
+    border: 4px solid goldenrod;
 }
 
 .index.listo{
     background-color: black;
     color: white;
     font-weight: 300;
+    padding: 8px 10px;
+    border: 2px solid palevioletred;
+    width: 50%;
+    margin: auto;
 }
 
 .imgr {
     height: auto;
     width: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid aquamarine;
 }
 
 .h1 {
     background-color: pink;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+h5 {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .chili {
@@ -43,7 +74,19 @@ p {
 .ingre,
 .stepr {
     background-color: azure;
+    padding: 5px;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid red;
 
+}
+
+.head{
+    text-align: center;
+}
+
+.step{
+    text-align: center;
 }
 
 .listy {

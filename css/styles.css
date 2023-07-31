@@ -1,6 +1,5 @@
 body {
     font-family: Verdana, sans-serif;
-    box-sizing: border-box;
 }
 
 a:visited { 
@@ -53,6 +52,9 @@ h5 {
     width: 200px;
     margin: 0 auto;
     text-align: center;
+
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .chili {

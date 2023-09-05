@@ -21,11 +21,10 @@
         var name = "Ben";
         name = "John";
         admin = name;
-        alert(admin);
         let earth = "Earth";
         var currentUser = "Mike";
 
-        console.log(2+5);
+
         let num1 = 1;
         let num2 = 2;
         let num3 = 3;
@@ -34,7 +33,31 @@
         let num6 = 6
         let answer = num1 + num2 + num3 + num4 + num5 + num6;
 
-        console.log((4 + 6 + 9) / 77);
+        function add7(input){
+            return input + 7;
+        }
+
+        function multiply(input1, input2){
+            let answer = input1 * input2;
+            return answer;
+        }
+
+        function toUpper(input){
+            let inputLower = input.toLowerCase();
+            let result = inputLower.charAt(0).toUpperCase() + inputLower.slice(1);
+            return result;
+        }
+
+        let lastLetter = (stringIn) => {
+            return stringIn.slice(-1);
+            //or stringIn.charAt(stringIn.length-1);
+        };
+
+        console.log("answer", add7(4));
+        console.log("multiply answer:", multiply(4, 5));
+        console.log("uppercase letter:", toUpper("HELLO"));
+        console.log("last letter:", lastLetter("fax"));
+
     </script>
 </body>
 </html>

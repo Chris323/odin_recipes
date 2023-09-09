@@ -1,63 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="mainer-h1">Odin Recipes</h1>
     <div class="index listo">
-    <ul>
-    <li><a href="./recipes/chili.html"  target="_blank" rel="noopener noreferrer">Chili Bean Recipe</a></li>
-    <li><a href="./recipes/tea_punch.html"  target="_blank" rel="noopener noreferrer">Tea Punch Recipe</a></li>
-    <li><a href="./recipes/na-margarita.html"  target="_blank" rel="noopener noreferrer">Non Alcoholic Margarita Recipe</a></li>
-    </ul>
+      <ul>
+        <li>
+          <a
+            href="./recipes/chili.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Chili Bean Recipe</a
+          >
+        </li>
+        <li>
+          <a
+            href="./recipes/tea_punch.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Tea Punch Recipe</a
+          >
+        </li>
+        <li>
+          <a
+            href="./recipes/na-margarita.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Non Alcoholic Margarita Recipe</a
+          >
+        </li>
+      </ul>
     </div>
     <script>
-        console.log("Hello World!")
-        let admin = "Chris";
-        var name = "Ben";
-        name = "John";
-        admin = name;
-        let earth = "Earth";
-        var currentUser = "Mike";
+    //   console.log("Hello World!");
+    //   let admin = "Chris";
+    //   var name = "Ben";
+    //   name = "John";
+    //   admin = name;
+    //   let earth = "Earth";
+    //   var currentUser = "Mike";
 
+    //   let num1 = 1;
+    //   let num2 = 2;
+    //   let num3 = 3;
+    //   let num4 = 4;
+    //   let num5 = 5;
+    //   let num6 = 6;
+    //   let answer = num1 + num2 + num3 + num4 + num5 + num6;
 
-        let num1 = 1;
-        let num2 = 2;
-        let num3 = 3;
-        let num4 = 4;
-        let num5 = 5;
-        let num6 = 6
-        let answer = num1 + num2 + num3 + num4 + num5 + num6;
+    //   function add7(input) {
+    //     return input + 7;
+    //   }
 
-        function add7(input){
-            return input + 7;
+    //   function multiply(input1, input2) {
+    //     let answer = input1 * input2;
+    //     return answer;
+    //   }
+
+    //   function toUpper(input) {
+    //     let inputLower = input.toLowerCase();
+    //     let result = inputLower.charAt(0).toUpperCase() + inputLower.slice(1);
+    //     return result;
+    //   }
+
+    //   let lastLetter = (stringIn) => {
+    //     return stringIn.slice(-1);
+    //     //or stringIn.charAt(stringIn.length-1);
+    //   };
+
+    //   console.log("answer", add7(4));
+    //   console.log("multiply answer:", multiply(4, 5));
+    //   console.log("uppercase letter:", toUpper("HELLO"));
+    //   console.log("last letter:", lastLetter("fax"));
+    let input = parseInt(prompt("Please enter a number"));
+    for (i = 1; i <= input; i++) {
+        if ((i%3 === 0) && (i%5 === 0)){
+            console.log("fizzbuzz");
         }
-
-        function multiply(input1, input2){
-            let answer = input1 * input2;
-            return answer;
+        else if (i%3 ===0) {
+            console.log("fizz");
         }
-
-        function toUpper(input){
-            let inputLower = input.toLowerCase();
-            let result = inputLower.charAt(0).toUpperCase() + inputLower.slice(1);
-            return result;
+        else if (i%5 === 0) {
+            console.log("buzz");
         }
-
-        let lastLetter = (stringIn) => {
-            return stringIn.slice(-1);
-            //or stringIn.charAt(stringIn.length-1);
-        };
-
-        console.log("answer", add7(4));
-        console.log("multiply answer:", multiply(4, 5));
-        console.log("uppercase letter:", toUpper("HELLO"));
-        console.log("last letter:", lastLetter("fax"));
-
+        else{
+            console.log(i);
+        }
+    }
     </script>
-</body>
+  </body>
 </html>
